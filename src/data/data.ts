@@ -9,7 +9,6 @@ export const initListItemsData = JSON.stringify([
             height: 200,
         },
         weight: "200g",
-        color: "red",
     },
     {
         id: 2,
@@ -21,15 +20,6 @@ export const initListItemsData = JSON.stringify([
             height: 200,
         },
         weight: "200g",
-        color: "green",
     },
 ])
 
-export const initCommentData = JSON.stringify([
-    {
-        id: 1,
-        productId: 2,
-        description: "some dsds here",
-        date: "14:00 22.08.2021",
-    },
-])

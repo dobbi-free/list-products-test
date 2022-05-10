@@ -1,17 +1,16 @@
-import React, { useEffect } from "react";
-import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Products from "./components/Products/Products";
-import ProductItem from "./components/Products/ProductItem";
-import Header from "./components/Header/Header";
-import { initCommentData, initListItemsData } from "./data/data";
-import { MainView } from "./components/MainView/MainView";
+import React, {useEffect} from 'react';
+import './App.css';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import Products from './components/Products/Products';
+import ProductItem from './components/Products/ProductItem';
+import Header from './components/Header/Header';
+import {initListItemsData} from './data/data';
+import {MainView} from './components/MainView/MainView';
 
 function App() {
   useEffect(() => {
     if (!localStorage.getItem("listItems")) {
       localStorage.setItem("listItems", initListItemsData);
-      localStorage.setItem("comments", initCommentData);
     }
   }, []);
 
