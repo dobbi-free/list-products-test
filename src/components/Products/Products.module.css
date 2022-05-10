@@ -1,0 +1,123 @@
+
+.product{
+    margin-bottom: 20px;
+}
+.product_img{
+    max-width: 200px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.desc_wrapp{
+ display: flex;
+}
+
+.desc{
+    margin-left: 50px;
+}
+
+.details,.edit,.save,.cancel,.delete{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 90px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(194, 227, 220, 0.36);
+    font-size: 14px;
+    cursor: pointer;
+    line-height:25px;
+}
+.cancel{
+    background-color: #d45555;
+    margin-left: 20px;
+}
+
+.delete{
+    background-color: #d45555;
+}
+.comment_button{
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: rgba(194, 227, 220, 0.36);
+    font-size: 13px;
+    cursor: pointer;
+    line-height:25px;
+    margin-left: 10px;
+}
+.modal_wrapp {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 100;
+    justify-content: center;
+    background-color: rgba(29, 29, 29, 0.6);
+    align-items: center;
+}
+
+.delete_desc{
+    text-align: center;
+}
+
+.delete_block {
+    width: 230px;
+    height: 110px;
+    border-radius: 20px;
+    background-color: rgba(248, 248, 247, 1);
+    padding: 20px;
+
+
+}
+.modal_block {
+    width: 680px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgba(248, 248, 247, 1);
+    padding: 20px;
+
+}
+
+.form_block{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input_desc{
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    background-color: inherit;
+
+}
+
+.input_desc:focus{
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #000;
+}
+.button_wrapp{
+    display: flex;
+}
+.button_modal{
+    display: flex;
+    justify-content: space-around;
+}
+.comment_wrapp{
+    margin-top: 100px;
+}
